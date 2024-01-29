@@ -1,6 +1,11 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
+import registerPresentation from './presentation/index'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import './assets/styles/global.scss'
+
+const app = createApp(App)
+
+registerPresentation(app)
+
+app.mount('#app')

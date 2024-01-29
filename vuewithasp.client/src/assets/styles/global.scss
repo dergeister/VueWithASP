@@ -1,0 +1,23 @@
+@import 'primeicons/primeicons.css';
+@import 'primeflex/primeflex.scss';
+@import 'primevue/resources/themes/lara-light-teal/theme.css';
+@import './primevue-overwrites.scss';
+
+@import './themes/index.scss';
+@import './buttons.scss';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}

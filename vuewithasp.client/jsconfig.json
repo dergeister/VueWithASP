@@ -1,8 +1,22 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
     "paths": {
-      "@/*": ["./src/*"]
+      "@assets/*": ["./src/assets/*"],
+      "@enums/*": ["./src/domain/enums/*"],
+      "@models/*": ["./src/domain/models/*"],
+      "@factories/*": ["./src/domain/factories/*"],
+      "@common/*": ["./src/modules/_common/*"],
+      "@home/*": ["./src/modules/home/*"],
+      "@i18n/*": ["./src/i18n/*"],
+      "@api/*": ["src/infrastructure/api/*"],
+      "@router/*": ["src/application/router/*"],
+      "@store/*": ["src/application/stores/*"],
+      "@middlewares/*": ["src/application/middlewares/*"],
+      "@helpers/*": ["src/application/helpers/*"],
+      "@mixins/*": ["src/application/mixins/*"],
+      "@services/*": ["src/application/services/*"],
     }
-  },
-  "exclude": ["node_modules", "dist"]
+  }
 }

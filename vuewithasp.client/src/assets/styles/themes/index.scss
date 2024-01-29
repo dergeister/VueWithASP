@@ -1,0 +1,15 @@
+@import './professional.scss';
+@import './student.scss';
+
+:root {
+  --student-primary-color: var(--blue-500);
+  --student-primary-color-hover: var(--blue-700);
+  --student-primary-color-active: var(--blue-400);
+  --professional-primary-color: var(--green-500);
+  --professional-primary-color-hover: var(--green-700);
+  --professional-primary-color-active: var(--green-400);
+
+  --system-primary-color: var(--professional-primary-color);
+  --system-primary-color-hover: var(--professional-primary-color-hover);
+  --system-primary-color-active: var(--professional-primary-color-active);
+}
